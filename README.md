@@ -20,6 +20,31 @@ This creates a virtual environment, installs dependencies, seeds the database, a
 
 Open http://localhost:5001
 
+## Project Overview
+
+TechStyle is a Flask-based eCommerce platform used as a practical DevOps modernization project.
+
+The goal of the project is to transform a traditional monolithic application into a modern DevOps-driven platform using:
+
+- Git & GitHub Flow
+- CI/CD Pipelines
+- Automated Testing
+- Docker
+- AWS
+- Monitoring
+- Infrastructure as Code
+
+## Project Structure
+
+```text
+techstyle/
+├── app.py
+├── seed_data.py
+├── requirements.txt
+├── templates/
+├── static/
+└── README.md
+
 ### Manual setup (without the script)
 
 **macOS / Linux**
